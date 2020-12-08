@@ -1,0 +1,129 @@
+@font-face{
+	font-family: orange_typewriter;
+	src: url(../Fonts/orange_typewriter.ttf);
+}
+@font-face{
+	font-family: opendyslexic;
+	src: url(../Fonts/opendyslexic.otf);
+}
+@font-face{
+	font-family: Rainbow;
+	src: url(../Fonts/Rainbow.ttf);
+}
+@font-face{
+	font-family: Babalu;
+	src: url(../Fonts/Babalu.ttf);
+}
+@font-face{
+	font-family: campus;
+	src: url(../Fonts/campus.ttf);
+}
+@font-face{
+	font-family: typewriter;
+	src: url(../Fonts/typewriter.ttf);
+}
+@font-face{
+	font-family: jambo;
+	src: url(../Fonts/jambo.otf);
+}
+
+
+body{
+	background-color: rgba(255, 150 ,150, .5);
+}
+#navigation{
+	font-size: 14pt;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+#navigation ul{
+
+	border: solid 4px purple;
+	list-style: none;
+	padding: 0px;
+	margin: 0 auto;
+	display: flex;
+	width: 90%;
+}
+#navigation ul li{
+	background: rgba(255,255,255,.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid 1px black;
+	text-align: center;
+	flex-grow: 1;
+}
+#navigation ul a{
+	flex-grow: 1;
+	text-decoration: none;
+}
+#navigation ul li:hover{
+	font-size: 20pt;
+	font-family: orange_typewriter;
+	background-color: rgba(0,0,0,1);
+}
+#navigation a:hover{
+	color: white;
+}
+#title{
+	font-size: 30pt;
+	font-family: Babalu;
+}
+#studies h3{
+	font-size: 30pt;
+	font-family: typewriter;
+}
+
+#sports h3{
+	font-size: 30pt;
+	font-family: campus;
+}
+
+#wrap{	
+	color : black;
+}
+#section2 {
+	color : black;
+}
+#gallerybball{
+	text-align: center;
+	table-layout: center;
+}
+#gallerybball a:hover{
+	font-size: 20pt;
+	color: blue;
+	text-decoration: none;
+}
+
+a:focus{
+	outline-style: dotted;
+}
+
+#Section4{
+
+	height: 200px;
+	width: 200px;
+
+	background-color : rgba(0,0,255,0.5);
+}
+
+#socialmedia{
+	font-size: 20pt;
+	font-family: jambo; 
+}
+#socialmedia table tr td a:hover img{
+	transform: scale(0.75);
+}
+
+
+
+
+
+
+
+
+
+
+

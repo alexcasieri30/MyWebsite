@@ -1,0 +1,70 @@
+@font-face{
+	font-family: digital;
+	src: url(../Fonts/digital.ttf);
+}
+@font-face{
+	font-family: go_retro;
+	src: url(../Fonts/go_retro.otf);
+}
+@font-face{
+	font-family: orange_typewriter;
+	src: url(../Fonts/orange_typewriter.ttf);
+}
+body{
+	background-color: rgba(150, 255 ,150, .5);
+}
+
+#navigation{
+	font-size: 10pt;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#navigation ul{
+
+	border: solid 3px purple;
+	list-style: none;
+	padding: 0px;
+	margin: 0 auto;
+	display: flex;
+	width: 90%;
+}
+#navigation ul li{
+	background: rgba(255,255,255,.8);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: solid 1px black;
+	text-align: center;
+	flex-grow: 1;
+}
+#navigation ul a{
+	flex-grow: 1;
+	text-decoration: none;
+}
+#navigation ul li:hover{
+	font-size: 15pt;
+	font-family: orange_typewriter;
+	background-color: rgba(0,0,0,1);
+}
+#navigation a:hover{
+	color: white;
+}
+
+#header{
+	font-size: 30pt;
+	font-family: digital;
+}
+#info{
+	font-family: go_retro;
+}
+
+#submit{
+	align-content: center;
+}
+
+
+
+
+
+
+

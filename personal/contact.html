@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Website : Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contactStyle.css">
+</head>
+<body>
+	<section id="navigation">
+		<ul>
+			<li><a href = "../index.html">Home</a></li>
+			<li><a href = "about.html">More about me!</a></li>
+			<li><a href = "index.html">Personal Site</a></li>
+		</ul>
+	</section>
+
+	<br>
+	
+	<section id="header"> 
+		<h1 align="center">Contact me</h1>
+	</section>
+		<div id= "info">
+			<h3 align="center">To set up a meeting, please fill out the form below and click 'SUBMIT'.</h3>
+		</div>
+
+		<br>
+		<div></div>
+			<form target = "_blank" method="POST" action="submit_extend.html">
+				<table id="mainArea" border = "1" width="600px" align="center" style="background-color: rgba(255, 255, 255, .4);">
+					<section>
+						<tr>
+							<td>
+								Your name: 
+							</td>
+							<td>
+								<input type="Enter Name" name="name" placeholder="Enter name: " />
+							</td>							
+						</tr>
+					</section>
+					<section>
+						<tr>
+							<td>
+								Password: 
+							</td>
+							<td>
+								<input type="password" id = "pass" name="userpassword" placeholder="Enter password" width="400px">
+							</td>
+						</tr>
+					</section>
+					<section>
+						<tr>
+							<td>
+								Subject matter:
+							</td>
+							<td>
+								<select name = "subject">
+									<option value= "CSS"> CSS </option>
+									<option value= "HTML"> HTML </option>
+									<option value= "JavaScript"> JavaScript</option>
+								</select>
+							</td>
+						</tr>						
+					</section>
+					<section>
+						<tr>
+							<td>
+								Which day(s):
+							</td>
+							<td>									
+								<input type="checkbox" name="meetingday" value="Mo"> Monday
+								<input type="checkbox" name="meetingday" value="Tu"> Tuesday
+								<input type="checkbox" name="meetingday" value="We"> Wednesday
+								<input type="checkbox" name="meetingday" value="Th"> Thursday
+								<input type="checkbox" name="meetingday" value="Fr"> Friday
+								<input type="checkbox" name="meetingday" value="Sa"> Saturday
+								<input type="checkbox" name="meetingday" value="Su"> Sunday
+							</td>
+						</tr>						
+
+					</section>
+					<section>
+						<tr>
+							<td>
+								Time of day:
+							</td>
+							<td>									
+								<input type="radio" name="avail" value="AM"> AM
+								<input type="radio" name="avail" value="PM"> PM
+							</td>
+						</tr>
+					</section>
+					<section>
+						<tr>
+							<td>
+								Additional notes:
+							</td>								
+							<td>
+								<textarea cols="30" rows="10"></textarea>
+							</td>
+						</tr>
+					</section>
+					<section>
+						<tr>
+							<td colspan="2" style="text-align: center">	
+								<input type="reset" value="RESET">
+								<input onclick="window.location.href = 'submit_extend.html';" type="submit" value="SUBMIT"> 
+							</td>
+						</tr>
+					</section>
+				</table>
+			</form>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@font-face{
+	font-family: orange_typewriter;
+	src: url(../Fonts/orange_typewriter.ttf);
+}
+@font-face{
+	font-family: go_retro;
+	src: url(../Fonts/go_retro.otf);
+}
+@font-face{
+	font-family: Sneta;
+	src: url(../Fonts/Sneta.otf);
+}
+@font-face{
+	font-family: erthquake;
+	src: url(../Fonts/erthquake.ttf);
+}
+@font-face{
+	font-family: modern_society;
+	src: url(../Fonts/modern_society.ttf);
+}
+@font-face{
+	font-family: milkynice;
+	src: url(../Fonts/milkynice.ttf);
+}
+
+body{
+	background-color: rgba(200, 200 ,255, .5);
+}
+
+#information table{
+	background-color: rgba(255, 255, 255, .4);
+}
+#sites{
+	font-size: 14pt;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+#sites ul{
+	width: 90%;
+	border: solid 3px purple;
+	list-style: none;
+	padding: 0px;
+	margin: 0 auto;
+	display: flex;
+}
+
+#sites ul li{
+	background: rgba(255,255,255,.8);
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border: solid 2px black;
+	text-align: center;
+	flex-grow: 1;
+}
+#sites ul a{
+	flex-grow: 1;
+	text-decoration: none;
+	text-decoration-color: white;
+}
+#sites ul li:hover{
+	font-size: 20pt;
+	font-family: orange_typewriter;
+	text-decoration-color: white;
+	background-color: rgba(0,0,0,1);
+}
+#sites a:hover{
+	color: white;
+}
+
+#hs_images{
+	text-align: center;
+	font-size: 20pt;
+	font-family: erthquake;
+	padding: 10px;
+}
+#hs_images a:hover{
+	color: rgb(100,190,200);
+}
+#hs_images a{
+
+	padding-top: 10px;
+	padding-bottom:10px;
+	text-decoration: none;
+	
+}
+#hs_images li{
+
+	list-style: none;
+	text-decoration: none;
+	min-width: 10vh;
+}
+#about_me{
+	font-size: 15pt;
+}
+#information{
+	font-size: 25pt;
+	font-family: milkynice;
+	line-height: 220%;
+}
+h1{
+	font-size: 50pt;
+	font-family: Sneta;
+}
+
+
+
+
+
