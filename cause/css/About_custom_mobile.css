@@ -1,0 +1,48 @@
+body{
+	background-color: rgba(0,255,150,.7)
+}
+ul li{
+	list-style: none;
+}
+
+#image{
+	visibility: hidden;
+	display: none;
+}
+
+#header{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header a{
+	flex-grow: 1;
+	flex-direction: row;
+	text-align: center;
+	text-decoration: none;
+}
+#header a li{
+	padding: 10px;
+}
+
+#header a li:hover{
+	background-color: rgb(240,240,200);
+}
+div#top{
+	text-align: center;
+}
+ul#item2{
+	margin-left: 50px;
+}
+ul#item3{
+	margin-left: 50px;
+}
+ul#item1{
+	margin-top: 20px;
+}
+ol.breadcrumb{
+	margin-bottom: 0px;
+}

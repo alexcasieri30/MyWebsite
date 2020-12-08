@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	background-color: rgb(255,220,220);
+}
+
+.navbar{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.navbar ul{
+	background: rgb(200,200,200);
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 0px;
+	width: 90%;
+	float: center;
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li{
+	text-align: center;
+	padding: 10px;
+	border: solid 1px black;
+	background: rgb(200,200,200);
+	width: 100%;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+}
+.navbar ul li:hover{
+	font-size: 15pt;
+	background-color: rgb(255,220,220);
+}
+#intro{
+	margin: 10px;
+}
+
+#header{
+	text-align: center;
+}
+
+#teams tr td{
+	border: solid 1px black;
+	padding: 15px;
+}
+
+#extrainfo{
+	border: solid 1px black;
+}
+
+#extrainfo ul{
+	padding: 0px;
+	list-style: none;
+	display: flex;
+}
+#extrainfo ul li{
+	padding: 10px;
+	padding-left: 20px;
+	text-align: left;
+}

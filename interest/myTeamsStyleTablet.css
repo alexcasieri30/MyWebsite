@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+	background-color: rgb(180,230,230);
+}
+
+.navbar{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.navbar ul{
+	background: rgb(200,200,200);
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	float: center;
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li{
+	text-align: center;
+	padding: 10px;
+	border: solid 1px black;
+	background: rgb(200,200,200);
+	width: 100%;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+}
+.navbar ul li:hover{
+	font-size: 15pt;
+	background-color: rgb(255,220,220);
+}
+
+#teams h1{
+	margin-left: 10px;
+}
+#teams table tr td{
+	border: solid 1px black;
+}
+
+
+#teams ul{
+	list-style: none;
+}
+#teams ul li table tr td{
+	border: 0px;
+	padding: 20px;
+}
+#team1name{
+	text-align: center;
+	font-size: 20pt;
+}
+#team1paragraph{
+	font-size: 12pt;
+}
+
+#team2name{
+	text-align: center;
+	font-size: 20pt;
+}
+
+#team2paragraph{
+	font-size: 12pt;
+}
+
+#team3name{
+	text-align: center;
+	font-size: 20pt;
+}
+#teams ul li table tr td iframe{
+	width: 200px;
+	height: 200px;
+}
+
+#team3paragraph{
+	font-size: 12pt;
+}
+#players h1{
+	text-align: center;
+}
+
+#players ul{
+	list-style: none;
+}
+#players ul li table tr td{
+	padding: 10px;
+}
+#players ul li table tr td iframe{
+	width: 200px;
+	height: 200px;
+}
+
+#footer{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

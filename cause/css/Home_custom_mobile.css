@@ -1,0 +1,71 @@
+body{
+	background: rgba(240,200,90,.8);
+}
+#header{
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+}
+#header li{
+	flex-grow: 1;
+	padding: 10px;
+	text-align: center;
+}
+#header a li:hover{
+	background-color: rgb(240,240,200);
+}
+#header a{
+	text-decoration: none;
+}
+
+ol.breadcrumb{
+	margin: 0px;
+}
+h3#quotes{
+	padding: 20px;
+	text-align: center;
+}
+div.col-md-6{
+	text-align: center;
+}
+
+ul#cards_ul{
+	text-align: center;
+	align-items: center;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+ul#cards_ul li{
+	padding: 10px;
+	flex-grow: 1;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+div#inputs{
+	margin-top: 10px;
+}
+
+#inputs h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#inputs{
+	text-align: center;
+}
+input#add_speaker.quote_input{
+}
+input#add_quote.quote_input{
+	margin-left: 10px;
+}
+.quote_input{
+margin-bottom: 10px;
+margin-top: 20px;
+
+}

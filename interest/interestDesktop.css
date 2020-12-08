@@ -1,0 +1,185 @@
+body{
+	margin: 0px;
+	background-color: rgb(220,255,220)
+}
+
+div ul{
+	margin: 0px;
+	list-style: none;
+	padding: 10px;
+}
+
+div ul li{
+	padding: 10px;
+}
+
+.navbar{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.navbar ul{
+	background: rgb(200,200,200);
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 0px;
+	width: 90%;
+	float: center;
+	display: flex;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+}
+.navbar ul li:hover{
+	font-size: 15pt;
+	background-color: rgb(255,220,220);
+}
+.navbar ul li{
+	border: solid 1px black;
+	text-align: center;
+	background: rgb(200,200,200);
+	width: 100%;
+}
+
+#body {
+	margin: 10px;
+}
+
+#u1{
+	display: flex;
+	
+}
+#column1{
+	font-size: 20pt;
+	margin: 0px;
+	padding-left: 20px;
+	flex-grow: 1;
+}
+#column2{
+	flex-grow: 1;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+#column2 ul{
+	display: flex;
+}
+#column2 ul li{
+	flex-grow: 1;
+	padding: 10px;
+	height: 120px;
+}
+#basketball{
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+#basketball li{
+	flex-grow: 1;
+}
+#info2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#invisible{
+	flex-grow: .1;
+	border: none;
+}
+
+#body #u1 li ul{
+	padding: 0px;
+	margin: 0px;
+	flex-direction: column;
+}
+
+#afterbody{
+	border: solid 1px black;
+	padding: 10px;
+	margin: 20px;
+	height: 620px;
+}
+
+#afterbody ul{
+	display: flex;
+	flex-grow: 1;
+	margin-bottom: 10px;
+	height: 550px;
+}
+#col1{
+	font-size: 20pt;
+	padding: 20px;
+	flex-grow: .8;
+}
+#lessons{
+	list-style: initial;
+
+}
+#col2{
+	padding: 0px;
+	border: 0px;
+	flex-grow: .2;
+}
+#col2 ul{
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+}
+#col2 ul li{
+	margin-left: 20px;
+	width: 150px;
+	flex-grow:1;
+}
+#b4bottom{
+	height: 200px;
+	border: solid 1px black;
+	margin: 20px;
+	padding: 10px;
+}
+#b4bottom ul{
+	display: flex;
+	flex-direction: column;
+	grid-row-gap: 15px;
+}
+#b4bottom ul #row1{
+	font-size: 15pt;
+	padding-top: 0px;
+	border: 0px;
+	flex-grow: .3;
+	text-align: center;
+}
+#b4bottom ul #row2{
+	flex-grow: .7;
+	border: 0px;
+	padding: 0px;
+}
+#b4bottom ul #row2 ul{
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	height: 80px;
+}
+#b4bottom ul #row2 ul li{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	flex-grow: 1;
+}
+
+#footer{
+	text-align: left;
+	font-size: 13pt;
+
+	height: 40px;
+	padding: 10px;
+	margin: 20px;
+}
+#back{
+	float: right;
+}
+
+

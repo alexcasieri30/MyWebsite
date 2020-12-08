@@ -1,0 +1,171 @@
+body{
+	margin: 0px;
+	background-color: rgb(220,255,220);
+}
+
+.navbar{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.navbar ul{
+	background: rgb(200,200,200);
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	float: center;
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li{
+	text-align: center;
+	padding: 10px;
+	border: solid 1px black;
+	background: rgb(200,200,200);
+	width: 100%;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+}
+.navbar ul li:hover{
+	font-size: 15pt;
+	background-color: rgb(255,220,220);
+}
+
+#afternavbar{
+	margin: 0px;
+	padding: 0px;
+}
+
+#afternavbar ul{
+	padding: 0px;
+}
+
+#body{
+	padding: 10px;
+	margin: 0px;
+}
+
+#u1{
+	padding: 10px;
+	list-style: none;
+	margin: 0px;
+}
+
+#column1{
+	font-size: 18pt;
+	text-align: center;
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+
+#column2{
+	margin: 0px;
+	padding: 20px;
+}
+#column2 ul{
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: horizontal;
+	align-items: center;
+}
+
+#column2 ul li{
+	font-size: 20pt;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style: none;
+	padding: 30px;
+	flex-grow: 1;
+}
+
+#invisible2{
+	padding: 0px;
+	border: 0px;
+}
+
+#afterbody{
+	margin: 0px;
+	border: solid 1px black;
+}
+#afterbody ul{
+	margin: 0px;
+	list-style: none;
+}
+#afterbody ul li{
+	margin: 0px;
+}
+#col1{
+	text-align: center;
+	padding: 20px;
+	font-size: 20pt;
+}
+#col2 ul{
+	padding-top: 100px;
+	margin: 0px;
+	display: flex;
+	flex-direction: horizontal;
+}
+#lessons{
+	text-align: left;
+	list-style: initial;
+}
+#col2 ul li{
+	font-size: 20pt;
+	align-content: center;
+	margin: 0px;
+	flex-grow: 1;
+	padding: 20px;
+	border: solid 1px black;
+}
+#b4bottom{
+}
+#b4bottom ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#row1{
+	font-size: 20pt;
+	text-align: center;
+	padding: 20px;
+}
+#row2 ul{
+	display: flex;
+	padding-bottom: 0px;
+}
+#row2 ul li{
+	margin: 20px;
+	flex-grow: 1;
+	flex-direction: horizontal;
+	padding: 50px;
+}
+
+#footer {
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

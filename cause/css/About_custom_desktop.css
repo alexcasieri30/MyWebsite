@@ -1,0 +1,173 @@
+body{
+	margin:0px;
+	font-size: 15pt;
+	background-color: rgba(0,255,150,.7)
+
+}
+img#earthgif{
+	visibility: hidden;
+	display: none;
+}
+nav#Navbar.navbar.navbar-light.bg-light{
+	background-color: rgb(120,185,150);
+}
+nav.nav.nav-pills.flex-column{
+	padding: 10px;
+}
+
+#header{
+
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header a{
+	flex-grow: 1;
+	flex-direction: row;
+	text-align: center;
+	text-decoration: none;
+}
+#header a li{
+	padding: 10px;
+}
+
+#header a li:hover{
+	background-color: rgb(240,240,200);
+}
+
+#scrollbar{
+	margin: 0px;
+	padding: 0px;
+}
+#top{
+	margin: 20px;
+	padding: 10px;
+}
+
+
+#Navbar{
+	display: flex;	
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	background: rgb(0,0,0);
+}
+a.nav-link{
+	padding:5px;
+	margin:0px;
+}
+a.navbar-brand{
+	margin-left: 10px;
+}
+a.nav-link.ml-3{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 20px;
+}
+.scrollspy-example{
+	width: 800px;
+	margin: 30px;
+}
+#information p{
+	font-size: 15pt;
+}
+
+.nav-link{
+	margin: 20px;
+	font-style: none;
+}
+
+.list-group a{
+	font-size: 15pt;
+	color: black;
+	padding: 10px;
+}
+#image_section1{
+	position: relative;
+	top: 0px;
+	left: 50px;
+}
+
+#information ul{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+	display: flex;
+}
+
+#information ul li{
+	
+	padding: 10px;
+}
+#card-text1{
+	font-size: 10pt;
+}
+#body{
+	margin-left: 250px;
+}
+
+#item1{
+	padding: 0px;
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+}
+#item1 li{
+	flex-grow: 1;
+	padding-right: 50px;
+}
+#item2{
+	display: flex;
+	list-style: none;
+	padding-right: 100px;
+	padding-left: 50px;
+}
+#item2 li{
+	flex-grow: 1;
+}
+#item3{
+	display: flex;
+	list-style: none;
+	padding-right: 100px;
+	padding-left: 50px;
+}
+#item3 li{
+	flex-grow: 1;
+}
+#item4{
+	padding: 0px;
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+}
+#item4 li{
+	padding: 0px;
+	flex-grow: 1;
+	padding-right: 50px;
+	flex-direction: row;
+}
+#item5{
+	margin-top: 50px;
+	padding: 0px;
+	display: flex;
+	list-style: none;
+}
+#item5 li{
+	flex-grow:1;
+	padding-right: 50px;
+}
+p{
+	font-size: 15pt;
+}
+h4{
+	font-size: 18pt;
+}
+h5{
+	font-size: 20pt;
+}
+
+ol.breadcrumb{
+	margin-bottom: 0px;
+}

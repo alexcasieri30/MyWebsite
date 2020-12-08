@@ -1,0 +1,38 @@
+body{
+	background-color: rgba(0,255,255,.5);
+}
+
+#header1{
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+}
+#header1 li{
+	flex-grow: 1;
+	padding: 10px;
+	text-align: center;
+}
+#header1 a li:hover{
+	background-color: rgb(240,240,200);
+}
+#header1 a{
+	text-decoration: none;
+}
+
+img#RAN{
+	display: none;
+	visibility: hidden;
+}
+img#RAN2{
+	display: none;
+	visibility: hidden;
+}
+img#image2{
+	display: none;
+	visibility: hidden;
+}
+ol.breadcrumb{
+	margin: 0px;
+}
