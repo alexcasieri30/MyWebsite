@@ -1,0 +1,127 @@
+body{
+	margin: 0px;
+	background-color: rgb(220,220,255);
+}
+
+.navbar{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+.navbar ul{
+	background: rgb(200,200,200);
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 0px;
+	width: 90%;
+	float: center;
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li{
+
+	text-align: center;
+	padding: 10px;
+	border: solid 1px black;
+	background: rgb(200,200,200);
+	width: 100%;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+}
+.navbar ul li:hover{
+	font-size: 15pt;
+	background-color: rgb(255,220,220);
+}
+
+#teams{
+	margin: 10px;
+}
+
+#teams li{
+	padding: 10px;
+	list-style: none;
+	flex-grow: 1;
+	border: 0px;
+}
+
+#team1{
+	border: 0px;
+	display: flex;
+	padding: 0px;
+	flex-direction: column;
+}
+
+#team1name{
+	font-size: 25pt;
+}
+
+#team1paragraph{
+	padding: 15px;
+	font-size: 20pt;
+	text-align: left;
+}
+#team2{
+	display: flex;
+	padding: 0px;
+	flex-direction: column;
+}
+
+#team2name{
+	font-size: 25pt;
+}
+
+#team2paragraph{
+	padding: 15px;
+	font-size: 20pt;
+	text-align: left;
+}
+
+#team3{
+	display: flex;
+	padding: 0px;
+	flex-direction: column;
+}
+
+#team3name{
+	font-size: 25pt;
+}
+
+#team3paragraph{
+	padding: 15px;
+	font-size: 20pt;
+	text-align: left;
+}
+#players{
+	margin: 10px;
+}
+
+#players ul{
+	list-style: none;
+}
+#players ul li{
+	padding: 10px;
+}
+#players ul li table tr td{
+	padding: 20px;
+}
+
+#footer{
+	text-align: center;
+	padding: 20px;
+}
+#question{
+	padding: 10px;
+}
+
+
+
+
+
+
+
