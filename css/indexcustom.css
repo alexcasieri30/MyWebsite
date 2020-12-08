@@ -1,0 +1,60 @@
+@font-face{
+	font-family: margin1;
+	src: url(../Fonts/margin1.otf);
+}
+@font-face{
+	font-family: anarchy;
+	src: url(../Fonts/anarchy.ttf);
+}
+@font-face{
+	font-family: thinktwice;
+	src: url(../Fonts/thinktwice.ttf);
+}
+@font-face{
+	font-family: orange_typewriter;
+	src: url(personal/Fonts/orange_typewriter.ttf);
+}
+
+#section1{
+	font-size: 30pt;
+	font-family: anarchy;
+}
+
+
+body{
+	background-color: rgb(235, 235,255);
+}
+
+nav ul{
+	border: solid 3px green;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+	/*flexbox property for parent*/
+	display: flex;
+
+}
+nav ul a{
+	flex-grow: 1;
+	text-decoration: none;
+}
+nav ul a link{
+	text-decoration: none;
+}
+
+nav ul li {
+	border: solid 2px black;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* Flexbox property for the child */
+
+	flex-grow:1;
+}
+
+nav ul li:hover{
+	background-color: rgba(255, 0,0,.5);
+}
+
+nav ul li a{}
